@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador Alura</title>
+  <link rel="stylesheet" href="CSS/Estilos.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo"> ENCRIPTADOR </h1>
+    <h2 class="subtitulo">Alura Challenge</h2>
+  </header>
+
+  <main class="main">
+
+    <section class="form box">
+
+      <form action="">
+        <!--<input class="text-input" type="text" name="input-texto" id="input-texto"
+          placeholder="Ingrese mensaje en minuscula y sin acentos aquí" aria-multiline="true" aria-orientation="horizontal">-->
+        <textarea class="text-input" name="input-texto" id="input-texto" cols="30" rows="10"
+          placeholder="Ingrese mensaje en minuscula y sin acentos aquí"></textarea>
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+      </form>
+
+    </section>
+
+    <section class="msg box">
+
+      <!--<input class="text-input" type="text" id="msg" placeholder="Mensaje final aquí" readonly></input>-->
+      <textarea class="text-input" id="msg" cols="30" rows="10"
+          placeholder="Mensaje final aquí" readonly></textarea>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+
+    </section>
+
+  </main>
+
+  <footer class="rodapie">
+    <p> Coded by Emilia Gómez Juárez </p>
+    <a href="https://www.linkedin.com/in/emilia-g%C3%B3mez-ju%C3%A1rez/" alt="Linkedin" title="Linkedin"
+      target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+    <a href="https://github.com/GomezJEmilia?tab=repositories" alt="GitHub" title="GitHub" target="_blank">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </footer>
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="JS/Script.js"></script>
+
+</html>
