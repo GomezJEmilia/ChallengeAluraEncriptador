@@ -5,6 +5,7 @@
     height: auto;
     min-height: 100%;
   }
+
   * {
     margin: 0;
     padding: 0;
@@ -22,17 +23,31 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
   }
+  
   header{
     background-color: #D2B4DE;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #logoHidden{
+    padding: 1%;
+    visibility: hidden;
+  }
+
+  #logo{
+    padding: 1%;
   }
 
   .titulo {
     text-align: center;
-    font-size: 60px;
+    font-size: 4em;
     font-family: 'Saira Condensed', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: .2em;
     padding: 0px;
     width: 45vw;
     height: 75px;
@@ -41,7 +56,7 @@
 
   .subtitulo{
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Saira Condensed', sans-serif;
     padding: 0px;
     width: 45vw;
@@ -49,18 +64,19 @@
   }
   
   .box {
-    padding: 20px;
-    margin: 30px 10px;
+    padding: 1em;
+    margin: 3em 1.5em;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
     border-radius: 0.5em;
-    width: 40vw;
-    height: 18vw;
+    width: 50%;
+    height: 50%;
+    
   }
 
   .text-input {
     font-family: 'Saira Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 1.1em;
     border-radius: 0.5em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin: auto;
@@ -73,13 +89,13 @@
   
   .btn {
     font-family: 'Saira Condensed', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: .15em;
     border: 0;
     color: black;
     font-weight: 650;
     background-color: lavender;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 1.5%;
+    margin-top:3%;
     border-radius: 0.5em;
   }
   .btn:hover{
